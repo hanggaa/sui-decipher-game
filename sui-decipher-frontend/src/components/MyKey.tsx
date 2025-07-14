@@ -1,4 +1,4 @@
-// file: src/components/MyKey.tsx (VERSI BERSIH)
+// file: src/components/MyKey.tsx
 
 import { useState, useEffect } from 'react';
 import { useCurrentAccount, useSuiClient } from '@mysten/dapp-kit';
@@ -54,6 +54,11 @@ export function MyKey({ onKeyUpdate }: MyKeyProps) {
                 setMyKey(null);
                 onKeyUpdate(null);
             }
+        })
+        .catch(error => {
+            console.error('Error fetching keys:', error);
+            setMyKey(null);
+            onKeyUpdate(null);
         })
         .finally(() => {
             setLoading(false);

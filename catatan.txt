@@ -1,0 +1,9 @@
+Simpan kedua ID ini baik-baik.
+
+Package ID (Alamat Smart Contract Anda)
+Lihat di bagian Published Objects:
+PackageID: 0x0b0fa2ec115172214e2489eb4db14f3bf1d644729c0f3a2fa686c26e2f204a7f
+
+TreasuryCap ID (Kunci untuk Mencetak Token Hadiah)
+Lihat di bagian Created Objects yang ObjectType-nya adalah TreasuryCap.
+ObjectID: 0x2d8716ccc168aaaa0e9d7e4a1391d969afc41dc6b5e2fa95fb61c1361d642dbb
